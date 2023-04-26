@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto';
+    color: white;
+}
+
+
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.working-container{
+    background-image: url('images/nico-bhlr-X9AV3x2V9DU-unsplash.jpg');
+    height: 750px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px;
+    border-radius: 8px;
+}
+
+.search-container{
+    margin-top: 30px;
+}
+
+.search-input{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    color: black;
+    font-size: 16px;
+}
+
+.btn-search{
+    padding: 10px 20px;
+    background-color: rgb(149, 163, 233);
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container img{
+    height: 250px;
+}
+
+.city-name{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.temp{
+    margin-bottom: 25px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    column-gap: 20px;
+    background-color: rgb(137, 137, 232);
+    padding: 15px 15px;
+}
+
+.humidity-img,
+.wind-img{
+    height: 40px;
+}
+
+.temp-type,
+.temp-desc{
+    margin-top: 20px;
+}
+
+.temp-type p,
+.temp-desc p{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.temp-desc p{
+    text-transform: capitalize;
+}
+
+@media(max-width: 538px){
+    .working-container{
+        width: 400px;
+    }
+
+    .search-input{
+        width: 200px;
+    }
+}
+
+
+
+
